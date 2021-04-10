@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  /* width: 100vw;
+  height: 100vh; */
+  background: #0b0b9f;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  width: 213px;
+  height: 66.62px;
+  left: 137px;
+  top: 52px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  margin-left: 400px;
+  margin-top: 55px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.top_txt {
+  color: #fff;
+  font-size: 72px;
+  margin-top: 30px;
+  margin-left: 137px;
+  line-height: 115%;
+}
+
+.txt {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 137px;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.enq_btn {
+  width: 180px;
+  margin-left: 137px;
+  color: #000;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  background: #fff;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 45px;
+  width: 164px;
+  height: 49px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+.h_img {
+  margin-left: 115px;
+  overflow: hidden;
+}
+
+.ylw_circle {
+  margin-top: 50px;
+  margin-bottom: -150px;
+  margin-left: 500px;
+}
+
+/*Second Section CSS*/
+
+.section_two {
+  padding: 12%;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #332a2a;
+  width: 476px;
+  height: 180px;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  text-transform: capitalize;
+  color: rgba(51, 42, 42, 0.65);
+  margin: 0;
+  width: 460px;
+  height: 184px;
+}
+
+/*Third Section CSS*/
+
+.section_three {
+  background: #ffa70b;
+}
+
+.title {
+  padding: 202px 266px;
+  color: #000;
+  font-weight: 900;
+  font-size: 92px;
+  line-height: 110%;
+  text-align: center;
+  background-image: url(Images/Ylw%20Thunder.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* Footer Section CSS */
+
+.footer {
+  background: #222121;
+}
+
+.ftr_txt {
+  padding-top: 134px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 115%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.ftr_btn {
+  width: 180px;
+  margin-left: 577px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 45px;
+  width: 186px;
+  height: 61px;
+  cursor: pointer;
+  padding: 21px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #0c0cc4;
+  margin-bottom: 44px;
+}
+
+.ftr_p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.6;
+  padding-bottom: 40px;
+}
+
+.squr,
+.wht_sqr {
+  margin-bottom: 10%;
+  margin-left: 5%;
+  filter: blur(8px);
+}
+
+.wht_sqr {
+  margin-top: -150px;
+}
+
+.wht_sq {
+  filter: blur(8px);
+  margin-left: 20%;
+  margin-top: 25px;
+}
+
+.wht_crcl,
+.ylw_sm_cr {
+  margin-left: 90%;
+  margin-bottom: -12%;
+  filter: blur(5px);
+}
+
+/* Section Four CSS */
+
+.section_four {
+  padding: 100px 150px;
+}
+
+.pp_txt {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #332a2a;
+}
+
+.pp_p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #332a2a;
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+.Joe {
+  margin-left: -90px;
+}
+
+.box-bb {
+  width: 1167px;
+  height: 271px;
+  margin-top: 100px;
+  background: #45fffa;
+  border-radius: 30px;
+}
+
+.bb_txt {
+  width: 721px;
+  height: 110px;
+  margin-top: -180px;
+  margin-left: 62px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+  position: absolute;
+  z-index: 1;
+}
+
+.bb_p {
+  width: 790px;
+  height: 23px;
+  margin-left: 62px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  text-transform: capitalize;
+  color: rgba(51, 42, 42, 0.65);
+  margin-top: -50px;
+}
+
+.blog_btn {
+  padding: 21px 30px;
+  width: 185px;
+  height: 61px;
+  margin-left: 50px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: -250%;
+}
